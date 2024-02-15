@@ -449,6 +449,7 @@ section {
 
 .header-content .left-header p {
   margin: 1rem;
+  margin-top: 5rem;
   line-height: 2rem;
   text-align: justify;
 }
