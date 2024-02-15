@@ -448,7 +448,7 @@ section {
 }
 
 .header-content .left-header p {
-  margin: 3rem 3rem;
+  margin: 1rem;
   line-height: 2rem;
   text-align: justify;
 }
@@ -459,7 +459,7 @@ section {
   position: relative;
 }
 
-/* .h-shape {
+.h-shape {
   transition: all 0.4s ease-in-out;
   width: 100%;
   height: 100%;
@@ -469,7 +469,7 @@ section {
   top: 0;
   z-index: -1;
   clip-path: polygon(0 85%, 100% 74%, 100% 100%, 0% 100%);
-} */
+}
 
 .header-content .right-header .image {
   border-radius: var(--br-sm-2);
