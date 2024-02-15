@@ -180,7 +180,7 @@ section {
 }
 
 /* ============= Header & NavBar ============= */
-.header {
+.header1 {
   position: fixed;
   top: 0;
   left: 10%;
@@ -435,7 +435,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 10rem;
+  padding-left: 10rem;
 }
 
 .header-content .left-header .name {
@@ -448,7 +448,7 @@ section {
 }
 
 .header-content .left-header p {
-  margin: 1rem 0;
+  margin: 3rem 3rem;
   line-height: 2rem;
   text-align: justify;
 }
@@ -459,7 +459,7 @@ section {
   position: relative;
 }
 
-.h-shape {
+/* .h-shape {
   transition: all 0.4s ease-in-out;
   width: 100%;
   height: 100%;
@@ -469,13 +469,13 @@ section {
   top: 0;
   z-index: -1;
   clip-path: polygon(0 85%, 100% 74%, 100% 100%, 0% 100%);
-}
+} */
 
 .header-content .right-header .image {
   border-radius: var(--br-sm-2);
   height: 85%;
   width: 68%;
-  margin-left: -2rem;
+  margin-left: 10rem;
   background-color: var(--color-primary);
   transition: all 0.4s ease-in-out;
 }
@@ -528,15 +528,14 @@ section {
 }
 
 .about-container .right-about .about-item .abt-text .large-text {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 600;
   color: var(--color-secondary);
 }
 
 .about-container .right-about .about-item .abt-text .small-text {
   padding-left: 3rem;
   position: relative;
-  text-transform: uppercase;
   font-size: 1.2rem;
   color: var(--color-grey-1);
   letter-spacing: 2px;
@@ -547,7 +546,7 @@ section {
   position: absolute;
   left: 0;
   top: 15px;
-  width: 2rem;
+  width: rem;
   height: 2px;
   background-color: var(--color-grey-5);
 }
